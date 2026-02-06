@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion } from "framer-motion";
+import Logo from '../assets/SEP REBRAND Logo and name white.png';
 
 // const NavItem = ({ to, children, onClick }) => (
 //     // <Link
@@ -69,7 +70,8 @@ export default function Navbar() {
                     {/* <span className="text-yellow-500">SEP</span>CONCEPT */}
                     <span>{/* YOUR BRANDING LOGO */}
                         <img
-                            src="/src/assets/SEP REBRAND Logo and name white.png"
+                            // src="/src/assets/SEP REBRAND Logo and name white.png"
+                            src={Logo}
                             alt="SEP CONCEPT - Secure Elegant Production"
                             className="w-full max-w-[100px] h-auto"
                         /></span>
