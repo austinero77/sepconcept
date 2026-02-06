@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    /* Prevents white flashes while loading */
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    overflow-x: hidden;
+}
