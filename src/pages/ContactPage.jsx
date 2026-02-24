@@ -112,6 +112,7 @@ export default function ContactPage() {
                                     <option>Videography</option>
                                     <option>Branding & Design</option>
                                     <option>Social Media Management</option>
+                                    <option>LiveStreaming</option>
                                 </select>
                             </div>
 
